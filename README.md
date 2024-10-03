@@ -10,8 +10,8 @@ and projcompiler compiles the project and also runs the compiled program if you 
 
 yes you don't need to add the .cpp extension as it will handle it by itself, you can also pass file name with spaces if you want like
 
-`projcompiler "test project" -y `
-`projcompiler "test project" -n` //that is if you don't want to run it
+`projcompiler "test project" -y ` or
+`projcompiler "test project" -n` that is if you don't want to run it
 
 If you are adding spaces be sure to use double quotes
 

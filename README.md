@@ -6,12 +6,12 @@ just call it from the terminal and the program I will ask for the class file nam
 
 and projcompiler compiles the project and also runs the compiled program if you add a -y at the end. sample command is
 
-projcompiler "test" -y
+`projcompiler "test" -y`
 
 yes you don't need to add the .cpp extension as it will handle it by itself, you can also pass file name with spaces if you want like
 
-projcompiler "test project" -y 
-projcompiler "test project" -n //that is if you don't want to run it
+`projcompiler "test project" -y `
+`projcompiler "test project" -n` //that is if you don't want to run it
 
 If you are adding spaces be sure to use double quotes
 

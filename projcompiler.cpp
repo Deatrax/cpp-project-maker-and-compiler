@@ -4,6 +4,12 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
+
+     #ifdef _WIN32
+        system("cls");
+    #elif defined(__APPLE__)
+        system("clear");
+    #endif
     // argc: Number of arguments (including the program name)
     // argv: Array of arguments (strings)
 
@@ -28,7 +34,7 @@ int main(int argc, char* argv[]) {
         cerr << "Compilation failed with error code: " << compileStatus << endl;
         return -1;
     } else {
-        cout << "Compilation succeeded." << endl;
+        cout << "Compilation succeeded.\n If you see wanings saying about extra token,\n it's because of the spaces you put in\n the filename when making them with projector" << endl;
     }
 
     // If a second argument is provided, handle auto-run option

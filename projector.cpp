@@ -46,7 +46,7 @@ void createFiles(const std::string& baseFilename) {
 
 int main() {
     #ifdef _WIN32
-        system("clr");
+        system("cls");
     #elif defined(__APPLE__)
         system("clear");
     #endif

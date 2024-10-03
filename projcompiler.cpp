@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
     if (argc == 3) {
         if (string(argv[2]) == "-y" || string(argv[2]) == "-Y") {
             #ifdef WIN32
-                string prun = "./\"" + className + ".exe\"";
+                string prun = ".\\\"" + className + ".exe\"";
                 system(prun.c_str());
             #else
                 string prun = "./\"" + className+"\"";
@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
 
     if (inp == 'y') {
             #ifdef WIN32
-                string prun = "./\"" + className + ".exe\"";
+                string prun = ".\\\"" + className + ".exe\"";
                 system(prun.c_str());
             #else
                 string prun = "./\"" + className+"\"";

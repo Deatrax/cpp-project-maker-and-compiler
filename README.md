@@ -1,5 +1,5 @@
 # cpp-project-maker-and-compiler
-hey guys if you just wanna use vs code for making project files but don't want to make the files manually, for that I have made these two programs, 
+hey guys if you just wanna use vs code for making project files but don't want to make the files manually, for that I have made these two programs. I have also added comments for your help in the code.
 
 projector makes the main.cpp class.cpp and class.h files
 just call it from the terminal and the program I will ask for the class file name and it will then add the files in the directory where it was called from. 
@@ -15,4 +15,11 @@ yes you don't need to add the .cpp extension as it will handle it by itself, you
 
 If you are adding spaces be sure to use double quotes
 
-compile the files and add them on your system path, it's the same technique as you used to add minGW in your system path 
+1. compile the files and add them on your system path, it's the same technique as you used to add minGW in your system path. herer are the steps if you don't remember
+2. search "edit system variables" on windows search
+3. select  environment variable
+4. select path
+5. select new
+6. before doing this add the compiled exe files in a folder of your licking and now browse to that folder
+7. save
+All done

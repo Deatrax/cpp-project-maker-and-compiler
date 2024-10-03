@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
     // If a second argument is provided, handle auto-run option
     if (argc == 3) {
         if (string(argv[2]) == "-y" || string(argv[2]) == "-Y") {
-            #ifdef WIN32
+            #ifdef _WIN32
                 string prun = ".\\\"" + className + ".exe\"";
                 system(prun.c_str());
             #else
@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
     cin >> inp;
 
     if (inp == 'y') {
-            #ifdef WIN32
+            #ifdef _WIN32
                 string prun = ".\\\"" + className + ".exe\"";
                 system(prun.c_str());
             #else

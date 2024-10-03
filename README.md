@@ -23,3 +23,6 @@ If you are adding spaces be sure to use double quotes
 6. before doing this add the compiled exe files in a folder of your licking and now browse to that folder
 7. save
 All done
+
+
+on windows explorer you can hold control and right click to select "open powershell window here" if you don't want the hassle of using cd to naviagte or you can also type cd then drap and drop the folder you are going to work on in a powershell window

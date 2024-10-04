@@ -20,7 +20,7 @@ If you are adding spaces be sure to use double quotes
 3. select  environment variable
 4. select path
 5. select new
-6. before doing this add the compiled exe files in a folder of your licking and now browse to that folder
+6. before doing this add the compiled exe files in a folder of your liking and now browse to that folder
 7. save
 All done
 
